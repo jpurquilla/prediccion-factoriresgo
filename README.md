@@ -117,8 +117,7 @@ data/raw/SLV2013_Public_Use.csv  (GSHS OMS/OPS 2013)
   └─ Comparativa base vs. optimizado
   └─ Figuras 14, 15, 16
   └─ → models/modelo_final.pkl
-        ↓
-reports/ieee/informe_ieee_GSHS2013_UR04002.pdf
+      
 ```
 
 ---
