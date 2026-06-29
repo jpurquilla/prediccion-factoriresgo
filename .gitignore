@@ -1,0 +1,49 @@
+# ─────────────────────────────────────────────
+# Oráculo del Balón 2026 — .gitignore
+# ─────────────────────────────────────────────
+
+# ── Credenciales — NUNCA subir ────────────────
+.env
+*.env
+.kaggle/
+
+# ── Entorno virtual ───────────────────────────
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── Jupyter ───────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ── Datos crudos — se regeneran con descarga_recursos.py ──
+data/raw/
+
+# ── Arrays numpy — se regeneran con NB03 ─────
+data/processed/*.npy
+
+# ── Lo que SÍ se sube de data/processed/ ─────
+# CSVs procesados, modelos .pkl, JSONs y matriz 495
+# (no hace falta listarlos — solo excluimos .npy y raw/)
+
+# ── Sistema operativo ─────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── VS Code ───────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ── PyCharm ───────────────────────────────────
+.idea/
+
+# ── Logs y temporales ─────────────────────────
+*.log
+*.tmp
+*.temp
